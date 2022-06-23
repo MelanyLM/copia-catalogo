@@ -57,8 +57,6 @@ body{
     
 }
 
-
-
 #contenedor{
     margin-left: 10%;
     margin-right: 10%;
@@ -132,7 +130,7 @@ ul{
 }
 
 #recomendados{
-    padding: 3%;
+    padding: 2%;
     font-family:'Roboto Mono', monospace;
     
 }
