@@ -139,6 +139,11 @@ ul {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+.relevantes div:hover {
+  opacity: 0.8;
+  color: rgb(27, 27, 27);
+  font-weight: bolder;
+}
 
 #recomendados {
   padding: 2%;
@@ -164,7 +169,9 @@ ul {
   color: darkgray;
   font-size: 1em;
 }
-
+.fila-articulos div:hover {
+  opacity: 0.8;
+}
 #intereses {
   padding: 3%;
   font-family: "Roboto Mono", monospace;
@@ -200,8 +207,9 @@ h3 {
   width: 100%;
   height: auto;
 }
-input {
-  border-radius: 5px;
+
+.articulos-pequeños div:hover {
+  opacity: 0.85;
 }
 .mensajito {
   font-size: 0.6em;
@@ -255,4 +263,8 @@ footer {
   align-items: center;
   display: block;
   margin: auto;
+}
+
+.columna li:hover {
+  opacity: 0.65;
 }
