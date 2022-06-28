@@ -6,7 +6,8 @@ body {
 }
 
 #cabecera {
-  border-bottom: 1px solid rgb(161, 161, 161);
+  margin-left: 5em;
+  margin-right: 5em;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -25,6 +26,7 @@ body {
 #buscador {
   width: 30em;
   height: 2em;
+  margin-left: 1.5em;
   border: 1px solid rgb(161, 161, 161);
   box-sizing: border-box;
   display: flex;
@@ -69,15 +71,25 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 3em;
+  margin-bottom: 3em;
+  height: 3em;
+  align-items: center;
   font-family: "Roboto Mono", monospace;
   font-size: 0.7em;
+  border-top: 1px solid rgb(161, 161, 161);
+  border-bottom: 1px solid rgb(161, 161, 161);
 }
 
 #contenedor {
   margin-left: 10%;
   margin-right: 10%;
   text-transform: uppercase;
+}
+h2 {
+  font-weight: 300;
+}
+span {
+  font-weight: 500;
 }
 #botones {
   align-content: space-around;
@@ -185,6 +197,8 @@ ul {
 #Productos-recomendados-pequeños {
   padding: 3%;
   font-family: "Roboto Mono", monospace;
+  text-transform: none;
+  font-size: 0.8em;
 }
 .articulos-pequeños {
   display: flex;
