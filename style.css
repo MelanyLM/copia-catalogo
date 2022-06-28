@@ -283,7 +283,46 @@ footer {
   display: block;
   margin: auto;
 }
-
+.columna-descarga i {
+  font-size: 1.4em;
+}
 .columna li:hover {
   opacity: 0.65;
+}
+
+.boton-pais {
+  width: 60%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  border: 0.5px solid gray;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1vw;
+  margin-bottom: 2em;
+}
+
+.boton-pais input {
+  width: 15em;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  font-size: 1em;
+  border: none;
+}
+
+#premios {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  justify-content: space-evenly;
+  margin: 0.6em;
+  color: orangered;
+}
+#metodos-pago {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.3em;
+  justify-content: space-evenly;
+  margin: 0.6em;
 }
