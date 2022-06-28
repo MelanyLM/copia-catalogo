@@ -60,6 +60,11 @@ body {
   color: black;
 }
 
+#cositos-derecha li:hover {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
 #categorias {
   display: flex;
   flex-direction: row;
